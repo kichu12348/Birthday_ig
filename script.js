@@ -1,37 +1,3 @@
-// script.js
-const giftBox=`
-<div class="gift-box" id="giftBox">
-            <div class="lid" id="lid">
-                <img src="ribbon.svg" class="ribbon" alt="hi">
-                <div class="lid-Ribbon"></div>
-            </div>
-            <div class="box">
-            <div class="ribbon-vertical"></div>
-            <div class="ribbon-horizontal"></div>
-            </div>
-            <div class="cover"></div>
-        </div>
-        <div class="popup" id="popup">
-            <div class="popup-content" id="popUpContent">
-                <h1>Happy Birthday!</h1>
-                <p>Wishing you a day filled with happiness and a year filled with joy. Happy birthday!😃</p>
-                <div class="collage">
-                    <img src="images/pic1.jpg" alt="Pic 1" class="popupImg img1">
-                    <img src="images/pic2.jpg" alt="Pic 2" class="popupImg img2">
-                    <img src="images/pic3.jpg" alt="Pic 3" class="popupImg img3">
-                    <img src="images/pic4.jpg" alt="Pic 4" class="popupImg img4">
-                    <img src="images/pic5.jpg" alt="Pic 5" class="popupImg img5">
-                </div>
-            </div>
-</div>
-`
-
-
-
-
-
-
-
 
 window.addEventListener('DOMContentLoaded', () => {
     const cake = document.getElementById('cake');
@@ -55,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         setTimeout(() => {
-            window.location.href = '/gift.html';
+            window.location.href = '/Birthday_ig/gift';
         }, 3000);
       
     }
