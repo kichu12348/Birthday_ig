@@ -139,8 +139,8 @@ p{
 
 
 .collage img {
-    width: 100px;
-    height: 100px;
+    width: 150px;  /*100px*/
+    height: 150px; /*100px*/
     margin: 5px;
     border-radius: 10px;
     object-fit: cover;
@@ -154,12 +154,12 @@ p{
 }
 
 .img1{
-    top:10%;
+    top:10%; /*10%*/
     rotate: -10deg;
 }
 
 .img2{
-    top: 30%;
+    top: 40%;    /*30%*/
     rotate: 6deg;
 }
 
